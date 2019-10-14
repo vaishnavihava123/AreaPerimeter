@@ -27,15 +27,15 @@
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="195dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="307dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="307dp" />
 
-    <TextView
+        <TextView
         android:id="@+id/res"
         android:layout_width="247dp"
         android:layout_height="wrap_content"
@@ -43,11 +43,15 @@
 
         android:textSize="32sp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:text="Perimeter Of Circle"
-        android:textSize="32sp" />
-
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="300dp"
+            android:layout_height="53dp"
+            android:text="Perimeter Of Circle"
+            android:textSize="32sp" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="278dp"
+        android:layout_height="381dp"
+        app:cardBackgroundColor="@color/colorAccent">
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
